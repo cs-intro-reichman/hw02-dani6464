@@ -3,6 +3,13 @@
  */
 public class Divisors {
 	public static void main (String[] args) {
-		//// Put your code here
+		int num_divided = Integer.parseInt(args[0]);
+		
+		// finding divisors of num_divided
+		for(int i = 1; i <= num_divided; i++){
+			if(num_divided % i == 0){
+				System.out.println(i);
+			}
+		}
 	}
 }
