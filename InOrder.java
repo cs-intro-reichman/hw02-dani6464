@@ -11,7 +11,9 @@ public class InOrder {
 
 		double num_2_double;
 		int num_2_int;
-		
+		/* In Java the naming convention is camelCase not snake_case
+		numDouble, numInt  - not num_double num_int
+		*/
 		// prints another int if it's equal or larger than num_1
 		do{
 			num_2_double = 10.0 * Math.random();
