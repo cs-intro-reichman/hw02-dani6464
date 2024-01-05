@@ -6,5 +6,7 @@
 public class OneOfEach {
 	public static void main (String[] args) {
 		//// Put your code here
+		// Where is the solution?
+
 	}
 }

@@ -17,6 +17,9 @@ public class Perfect {
 		// if the number is perfect or not print accordingly 
 		if (my_sum == num){
 				System.out.print(num + " is a perfect number since " + num + " = 1");
+				/* it is bad practice to put loops inside an if-else statement
+				 we will have functions from now on so try to avoid this
+     				*/
 				for (int j = 2; j < num; j ++){
 					if (num % j == 0){
 						System.out.print(" + " + j);
@@ -28,6 +31,6 @@ public class Perfect {
 			}
 			}
 
-			
+			/* Not good indentation, mostly of the brackets */
 
 		}
